@@ -1,6 +1,6 @@
 project "GLFW"
-	king "StaticLib"
-	Language "C"
+	kind "StaticLib"
+	language "C"
 	
 	targetdir("bin/" .. outputdir .. "/%{prj.name}")
 	objdir("bin-int/" .. outputdir .. "/%{prj.name}")
